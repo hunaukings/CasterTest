@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ApkDeploymentStatus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ApkFile>F:\android\workspace-vc\CasterTest\Caster\bin\Caster-debug.apk</ApkFile>
+  <DeviceID>0146B56615002015</DeviceID>
+  <ApkTimestamp>2015-11-27T16:04:33.7437199+08:00</ApkTimestamp>
+  <LastDeployment>2015-11-27T16:04:34.4613212+08:00</LastDeployment>
+</ApkDeploymentStatus>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{f91a46d3-eec6-43af-967d-90d644d28054}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{09d83e28-84ab-4f69-84af-9ebf88daedf4}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{96bd6f4b-c512-4a89-acea-3701ff96ce65}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Java Source Files">
+      <UniqueIdentifier>{2b3160f9-afe6-49ec-b748-9741a45ff774}</UniqueIdentifier>
+      <Extensions>*.java</Extensions>
+    </Filter>
+    <Filter Include="Java Source Files\com">
+      <UniqueIdentifier>{068f6b84-33c3-4b4c-8a13-e3aa2d4f5242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java Source Files\com\yf">
+      <UniqueIdentifier>{b87f8206-b661-4ee1-991c-9b86291cf249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java Source Files\com\yf\Caster">
+      <UniqueIdentifier>{5e4aed6c-7e01-4d15-99eb-330c77979afa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AndroidManifest.xml" />
+    <None Include="jni\Android.mk" />
+    <None Include="jni\Application.mk" />
+    <None Include="src\com\yf\Caster\Caster.java">
+      <Filter>Java Source Files\com\yf\Caster</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="jni\Caster.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

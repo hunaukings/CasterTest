@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ApkDeploymentStatus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ApkFile>F:\android\workspace-vc\CasterTest\AndroidProject2\bin\AndroidProject2-debug.apk</ApkFile>
+  <DeviceID>0146B56615002015</DeviceID>
+  <ApkTimestamp>2015-11-27T15:40:38.0776689+08:00</ApkTimestamp>
+  <LastDeployment>2015-11-27T15:40:38.7640701+08:00</LastDeployment>
+</ApkDeploymentStatus>

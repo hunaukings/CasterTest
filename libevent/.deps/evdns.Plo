@@ -1,0 +1,280 @@
+evdns.lo: evdns.c \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/types.h \
+ /root/android-ndk-r9c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/stdint.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/_types.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/machine/_types.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/_wchar_limits.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/android/api-level.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/posix_types.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/stddef.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/compiler.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/posix_types.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/types.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/types.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/machine/kernel.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h \
+ include/event2/event-config.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/string.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/malloc.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/fcntl.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/fcntl.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/fcntl.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm-generic/fcntl.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/unistd.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/select.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/time.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/time.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/signal.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/limits.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/limits.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/limits.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/machine/internal_types.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/machine/limits.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/syslimits.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/page.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/signal.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm-generic/signal.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/sigcontext.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/siginfo.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm-generic/siginfo.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/sysconf.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/capability.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/pathconf.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/stdlib.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/alloca.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/strings.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/memory.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/errno.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/errno.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/errno.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm-generic/errno.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm-generic/errno-base.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/stat.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/stat.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/endian.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/endian.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/machine/endian.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/stdio.h \
+ /root/android-ndk-r9c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h \
+ include/event2/dns.h include/event2/util.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/netdb.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/socket.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/socket.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/socket.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/sockios.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/sockios.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/uio.h \
+ include/event2/dns_struct.h include/event2/dns_compat.h \
+ include/event2/event.h include/event2/event_struct.h \
+ include/event2/keyvalq_struct.h include/event2/thread.h \
+ include/event2/bufferevent.h include/event2/bufferevent_struct.h \
+ bufferevent-internal.h defer-internal.h compat/sys/queue.h \
+ evthread-internal.h util-internal.h log-internal.h ipv6-internal.h \
+ ratelim-internal.h mm-internal.h strlcpy-internal.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/netinet/in.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/in.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/byteorder.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/byteorder/little_endian.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/byteorder/swab.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/byteorder/generic.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/in6.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/ipv6.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/netinet/in6.h \
+ /root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/arpa/inet.h
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/types.h:
+
+/root/android-ndk-r9c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/stdint.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/_types.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/machine/_types.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/_wchar_limits.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/android/api-level.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/cdefs.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/posix_types.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/stddef.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/compiler.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/posix_types.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/types.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/types.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/machine/kernel.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h:
+
+include/event2/event-config.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/string.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/malloc.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/fcntl.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/fcntl.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/fcntl.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm-generic/fcntl.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/unistd.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/select.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/time.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/time.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/signal.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/limits.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/limits.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/limits.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/machine/internal_types.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/machine/limits.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/syslimits.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/page.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/signal.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm-generic/signal.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/sigcontext.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/siginfo.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm-generic/siginfo.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/sysconf.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/capability.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/pathconf.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/stdlib.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/alloca.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/strings.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/memory.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/errno.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/errno.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/errno.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm-generic/errno.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm-generic/errno-base.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/stat.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/stat.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/endian.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/endian.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/machine/endian.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/stdio.h:
+
+/root/android-ndk-r9c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h:
+
+include/event2/dns.h:
+
+include/event2/util.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/netdb.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/sys/socket.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/socket.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/socket.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/sockios.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/sockios.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/uio.h:
+
+include/event2/dns_struct.h:
+
+include/event2/dns_compat.h:
+
+include/event2/event.h:
+
+include/event2/event_struct.h:
+
+include/event2/keyvalq_struct.h:
+
+include/event2/thread.h:
+
+include/event2/bufferevent.h:
+
+include/event2/bufferevent_struct.h:
+
+bufferevent-internal.h:
+
+defer-internal.h:
+
+compat/sys/queue.h:
+
+evthread-internal.h:
+
+util-internal.h:
+
+log-internal.h:
+
+ipv6-internal.h:
+
+ratelim-internal.h:
+
+mm-internal.h:
+
+strlcpy-internal.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/netinet/in.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/in.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/asm/byteorder.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/byteorder/little_endian.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/byteorder/swab.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/byteorder/generic.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/in6.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/linux/ipv6.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/netinet/in6.h:
+
+/root/android-ndk-r9c/platforms/android-19/arch-arm/usr/include/arpa/inet.h:

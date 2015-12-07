@@ -1,0 +1,21 @@
+﻿生成启动时间为 2015/11/27 14:35:41。
+     1>项目“F:\android\workspace-vc\CasterTest\CasterTest.vcxproj”在节点 2 上(build 个目标)。
+     1>Build:
+         "C:\Program Files (x86)\Sysprogs\VisualGDB\\VisualGDB.exe" /build "F:\android\workspace-vc\CasterTest\CasterTest.vcxproj" "/solution:F:\android\workspace-vc\CasterTest\CasterTest.sln" "/config:Debug" "/platform:Win32"
+     1>VisualGDB : error : Cannot update debuggable flag in manifest file: 未能找到文件“F:\android\workspace-vc\CasterTest\AndroidManifest.xml”。
+         VisualGDB: Run "F:\android\android-ndk-r10\ndk-build.cmd NDK_DEBUG=1 APP_PLATFORM=android-19 VGDB_VSCONFIG=Debug" in directory "F:\android\workspace-vc\CasterTest" on local computer
+         F:/android/android-ndk-r10/build/core/build-all.mk:89: Android NDK: WARNING: There are no modules to build in this project!    
+         [armeabi] Gdbserver      : [arm-linux-androideabi-4.6] libs/armeabi/gdbserver
+         [armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+         [armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.6] libs/armeabi-v7a/gdbserver
+         [armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+         VisualGDB: build.xml/local.properties not found in F:\android\workspace-vc\CasterTest. Running "android update project" to generate it...
+         VisualGDB: Run "F:\android\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\SDK\tools\android.bat update project --path "F:\android\workspace-vc\CasterTest"" in directory "" on local computer
+     1>EXEC : error : F:\android\workspace-vc\CasterTest is not a valid project (AndroidManifest.xml not found).
+     1>EXEC : error : Build has failed. See the Output window for more details.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: 命令“"C:\Program Files (x86)\Sysprogs\VisualGDB\\VisualGDB.exe" /build "F:\android\workspace-vc\CasterTest\CasterTest.vcxproj" "/solution:F:\android\workspace-vc\CasterTest\CasterTest.sln" "/config:Debug" "/platform:Win32"”已退出，代码为 1。
+     1>已完成生成项目“F:\android\workspace-vc\CasterTest\CasterTest.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.99

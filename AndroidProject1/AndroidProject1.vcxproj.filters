@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{3a5828ff-1b06-4ead-b59b-86aa25b045b8}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{06d2b61b-be8b-4ed2-97bc-1e4a870a28e1}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{57386603-86a9-40ca-9684-4141f8723f28}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Java Source Files">
+      <UniqueIdentifier>{793d5a72-7db7-4209-8779-ad4cef59fe01}</UniqueIdentifier>
+      <Extensions>*.java</Extensions>
+    </Filter>
+    <Filter Include="Java Source Files\com">
+      <UniqueIdentifier>{412e228b-ef8e-4377-a0e6-4fa541159bc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java Source Files\com\visualgdb">
+      <UniqueIdentifier>{6f684a28-7bf8-4717-9491-33ba1f81c0c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java Source Files\com\visualgdb\example">
+      <UniqueIdentifier>{148f4585-b4ca-40c8-9a81-ae00e899ec39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java Source Files\com\visualgdb\example\AndroidProject1">
+      <UniqueIdentifier>{9645b04a-6b39-4bef-b221-851cf730c0cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AndroidManifest.xml" />
+    <None Include="jni\Android.mk" />
+    <None Include="jni\Application.mk" />
+    <None Include="src\com\visualgdb\example\AndroidProject1\AndroidProject1.java">
+      <Filter>Java Source Files\com\visualgdb\example\AndroidProject1</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="jni\AndroidProject1.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

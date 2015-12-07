@@ -1,0 +1,121 @@
+﻿生成启动时间为 2015/11/27 15:35:43。
+     1>项目“F:\android\workspace-vc\CasterTest\AndroidProject1\AndroidProject1.vcxproj”在节点 2 上(build 个目标)。
+     1>Build:
+         "C:\Program Files (x86)\Sysprogs\VisualGDB\\VisualGDB.exe" /build "F:\android\workspace-vc\CasterTest\AndroidProject1\AndroidProject1.vcxproj" "/solution:F:\android\workspace-vc\CasterTest\CasterTest.sln" "/config:Debug" "/platform:Win32"
+         VisualGDB: Run "F:\android\android-ndk-r10\ndk-build.cmd NDK_DEBUG=1 APP_PLATFORM=android-19 VGDB_VSCONFIG=Debug" in directory "F:\android\workspace-vc\CasterTest\AndroidProject1" on local computer
+     1>Android NDK : warning : APP_PLATFORM android-19 is larger than android:minSdkVersion 3 in ./AndroidManifest.xml
+         [armeabi] Gdbserver      : [arm-linux-androideabi-4.6] libs/armeabi/gdbserver
+         [armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+         [armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.6] libs/armeabi-v7a/gdbserver
+         [armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+         [armeabi] Install        : libAndroidProject1.so => libs/armeabi/libAndroidProject1.so
+         [armeabi-v7a] Install        : libAndroidProject1.so => libs/armeabi-v7a/libAndroidProject1.so
+         VisualGDB: Run "F:\android\apache-ant-1.9.6\bin\ant.bat debug" in directory "F:\android\workspace-vc\CasterTest\AndroidProject1" on local computer
+         Buildfile: F:\android\workspace-vc\CasterTest\AndroidProject1\build.xml
+         
+         -set-mode-check:
+         
+         -set-debug-files:
+         
+         -check-env:
+          [checkenv] Android SDK Tools Revision 22.6.2
+          [checkenv] Installed at F:\android\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk
+         
+         -setup:
+              [echo] Project Name: AndroidProject1
+           [gettype] Project Type: Application
+         
+         -set-debug-mode:
+         
+         -debug-obfuscation-check:
+         
+         -pre-build:
+         
+         -build-setup:
+         [getbuildtools] Using latest Build Tools: 19.0.3
+              [echo] Resolving Build Target for AndroidProject1...
+         [gettarget] Project Target:   Android 4.4.2
+         [gettarget] API level:        19
+              [echo] ----------
+              [echo] Creating output directories if needed...
+             [mkdir] Created dir: F:\android\workspace-vc\CasterTest\AndroidProject1\bin\rsObj
+             [mkdir] Created dir: F:\android\workspace-vc\CasterTest\AndroidProject1\bin\rsLibs
+              [echo] ----------
+              [echo] Resolving Dependencies for AndroidProject1...
+         [dependency] Library dependencies:
+         [dependency] No Libraries
+         [dependency] 
+         [dependency] ------------------
+              [echo] ----------
+              [echo] Building Libraries with 'debug'...
+            [subant] No sub-builds to iterate on
+         
+         -code-gen:
+         [mergemanifest] Found Deleted Target File
+         [mergemanifest] Merging AndroidManifest files into one.
+         [mergemanifest] Manifest merger disabled. Using project manifest only.
+              [echo] Handling aidl files...
+              [aidl] No AIDL files to compile.
+              [echo] ----------
+              [echo] Handling RenderScript files...
+              [echo] ----------
+              [echo] Handling Resources...
+              [aapt] Found Deleted Target File
+              [aapt] Generating resource IDs...
+              [echo] ----------
+              [echo] Handling BuildConfig class...
+         [buildconfig] No need to generate new BuildConfig.
+         
+         -pre-compile:
+         
+         -compile:
+             [javac] Compiling 1 source file to F:\android\workspace-vc\CasterTest\AndroidProject1\bin\classes
+             [javac] 警告: [options] 源值1.5已过时, 将在未来所有发行版中删除
+             [javac] 警告: [options] 目标值1.5已过时, 将在未来所有发行版中删除
+             [javac] 警告: [options] 要隐藏有关已过时选项的警告, 请使用 -Xlint:-options。
+             [javac] 3 个警告
+         
+         -post-compile:
+         
+         -obfuscate:
+         
+         -dex:
+               [dex] input: F:\android\workspace-vc\CasterTest\AndroidProject1\bin\classes
+               [dex] Found Deleted Target File
+               [dex] Converting compiled files and external libraries into F:\android\workspace-vc\CasterTest\AndroidProject1\bin\classes.dex...
+         
+         -crunch:
+            [crunch] Crunching PNG Files in source dir: F:\android\workspace-vc\CasterTest\AndroidProject1\res
+            [crunch] To destination dir: F:\android\workspace-vc\CasterTest\AndroidProject1\bin\res
+            [crunch] Crunched 0 PNG files to update cache
+         
+         -package-resources:
+              [aapt] Found Deleted Target File
+              [aapt] Creating full resource package...
+     1>EXEC : [aapt] warning : AndroidManifest.xml already defines debuggable (in http://schemas.android.com/apk/res/android); using existing value in manifest.
+         
+         -package:
+         [apkbuilder] Found Deleted Target File
+         [apkbuilder] Creating AndroidProject1-debug-unaligned.apk and signing it with a debug key...
+         
+         -post-package:
+         
+         -do-debug:
+          [zipalign] Running zip align on final apk...
+              [echo] Debug Package: F:\android\workspace-vc\CasterTest\AndroidProject1\bin\AndroidProject1-debug.apk
+         [propertyfile] Updating property file: F:\android\workspace-vc\CasterTest\AndroidProject1\bin\build.prop
+         [propertyfile] Updating property file: F:\android\workspace-vc\CasterTest\AndroidProject1\bin\build.prop
+         [propertyfile] Updating property file: F:\android\workspace-vc\CasterTest\AndroidProject1\bin\build.prop
+         [propertyfile] Updating property file: F:\android\workspace-vc\CasterTest\AndroidProject1\bin\build.prop
+         
+         -post-build:
+         
+         debug:
+         
+         BUILD SUCCESSFUL
+         Total time: 1 second
+     1>已完成生成项目“F:\android\workspace-vc\CasterTest\AndroidProject1\AndroidProject1.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.24
